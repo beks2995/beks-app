@@ -5,7 +5,7 @@ const Header = ({todos}) => {
     const doneTodos = todos.filter(el => !el.isActive && !el.isDeleted).length
     return (
         <>
-            <h1>Beks Todo List</h1>
+            <h1>Todo List</h1>
             <div>
                 <span>{activeTodos} more, </span>
                 <span>{doneTodos} done</span>
