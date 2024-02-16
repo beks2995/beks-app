@@ -1,0 +1,10 @@
+.todo-text{
+    border: none;
+    outline: none;
+}
+.todo-text.active{
+    border: 1px solid #595454;
+}
+.todo-text.done{
+    text-decoration: line-through;
+}
